@@ -1,0 +1,9 @@
+<launch>
+
+    <!-- Run the manual control transmitter node -->
+    <node pkg="self_driving_car" name="transmitter" type="move_commander.py" />
+
+    <!-- Run rqt_image_viewer to view image data -->
+    <node pkg="rqt_image_view" name="rqt_image_view" type="rqt_image_view.py" />
+
+</launch>
