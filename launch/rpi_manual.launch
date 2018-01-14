@@ -4,6 +4,6 @@
     <include file="$(find raspicam_node)/launch/camerav2_1280x720.launch"/>
 
     <!-- Run the manual control receiver node -->
-    <node pkg="self_driving_car" name="receiver" type="rover_manual.py" />
+    <node pkg="self_driving_car" name="receiver" type="rover_manual.py" output="screen" />
 
 </launch>
